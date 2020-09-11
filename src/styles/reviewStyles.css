@@ -1,0 +1,74 @@
+.pdpReviewContainer {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  /* border: 1px solid yellow; */
+}
+
+.pdpReviewUsername {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.pdpReviewPfp {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  /* border: 1px solid blue; */
+}
+
+.pdpReviewBodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  background: #6EBD70;
+  color: white;
+  padding: 10px 5px 10px 10px;
+  border-radius: 12px;
+  width: 100%;
+  /* border: 1px solid orange; */
+}
+
+.pdpReviewBody {
+  color: white;
+}
+
+.pdpTimeStamp {
+  font-size: 12px;
+  align-self: flex-end;
+  color: white;
+}
+
+.pdpReviewCommentDeleteContainer {
+  display: flex;
+  align-items: center;
+}
+
+.pdpReviewCommentDeleteButton {
+  color: white;
+  background: #F7675B;
+  border-radius: 50vw;
+  width: 100px;
+  font-size: 11px;
+  text-align: center;
+  height: 45px;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+.pdpReviewCommentDeleteButton:hover {
+  opacity: 85%;
+  transform: translate(0px, -2px);
+  cursor: pointer;
+  background: #F7675B;
+}
+
+
+
+/* background #f4f4f5; */

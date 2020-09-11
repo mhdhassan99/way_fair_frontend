@@ -1,0 +1,36 @@
+.trendingItemContainer {
+    align-content: center;
+}
+
+
+.trendingItemsImage {
+    display: flex;
+    justify-content: center;
+
+}
+
+.trendingImage {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+    border: 5px solid white;
+    margin: 4px;
+    transition: all 1.5s ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.trendingImage:hover {
+    border-color: purple;
+    transform: translate(0px, -15px);
+}
+
+
+.browseProducts {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewContainer{
+    
+}

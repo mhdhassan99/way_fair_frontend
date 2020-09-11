@@ -1,0 +1,122 @@
+.productCard {
+  color: #7f187f;
+  flex-grow: 1;
+  margin: 10px 10px;
+  position: relative;
+  border: 0px solid #ffffff;
+  border-bottom: 1.5px;
+  border-radius: 8px;
+  box-shadow: 1px;
+  min-width: 19em;
+  max-width: 11em;
+  transition: all 0.6s ease;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.productCard:hover {
+  box-shadow: -2px 2px 12px 2px #f3ccdb;
+  transform: translate(0px, -10px);
+}
+
+.productImageContainer {}
+
+.productImage {
+  position: relative;
+}
+
+.imageContainer {}
+
+.image {
+  height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+  vertical-align: bottom;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.favButtonContainer {
+  background-image: url("../icons/gratipay-brands.svg");
+
+}
+
+.productInfo {
+
+  padding: 5px;
+}
+
+@keyframes heartBeat{
+  0% {
+    transform: scale(.5)
+  }
+
+  100% {
+    transform: scale(1.2)
+  }
+}
+
+.favButton {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  /* justify-content: center; */
+  align-items: center;
+  position: absolute;
+  /* top: -130px; */
+  right: 5px;
+  top: 5px;
+  background-image: url("../icons/heart23.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all .4s ease-in;
+  /* animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: .5s;
+  animation-name: heartBeat; */
+  z-index: 1;
+}
+.favButtonFavorited {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  /* justify-content: center; */
+  align-items: center;
+  position: absolute;
+  /* top: -130px; */
+  right: 5px;
+  top: 5px;
+  background-image: url("../icons/heartFaved.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all .4s ease-in;
+  /* animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: .5s;
+  animation-name: heartBeat; */
+  z-index: 1;
+}
+
+.favButton:hover {
+  transform: scale(1.5);
+}
+
+.productTitleContainer {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.productTitle {
+  font-size: 20px;
+}
+
+.productPrice {
+  font-size: 25px;
+  font-weight: 600;
+  color: #C4113F;
+}
+
+.productReviews {
+  text-align: center;
+}

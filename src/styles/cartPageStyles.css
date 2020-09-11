@@ -1,0 +1,151 @@
+
+
+.cartPageContainer {
+  display: flex;
+  margin-top: 50px;
+  /* width: 90%; */
+  /* justify-content: center; */
+}
+
+.productsContainer {
+
+}
+
+.cartProductCard {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.cartImageContainer {
+
+}
+
+.cartImage {
+  width: 250px;
+  max-height: 300px;
+  margin-right: 40px;
+  border-radius: 8px;
+}
+
+.cartProductInfoContainer {
+  width: 600px;
+  margin-right: 50px;
+}
+
+.productTitlePriceContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.productTitle {
+
+}
+
+.productPrice {
+
+}
+
+.cartCheckoutInfoQuantityContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartCheckoutInfo {
+  width: 250px;
+  line-height: 25px;
+}
+
+.quantityRemoveItemContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.quantity {
+  width: 100px;
+  border: 1.8px solid #89848C;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  transition: 0.5s all ease;
+}
+.quantity:focus {
+  border-color: purple;
+}
+.cartRemoveItemButton {
+  color: white;
+  background: #bb2349;;
+  border-radius: 50vw;
+  font-size: 15px;
+  text-align: center;
+  height: 45px;
+  transition: all 0.6s ease;
+}
+
+.cartRemoveItemButton:hover {
+  background: rgb(255, 0, 0);
+  transform: translate(0px, -6px);
+}
+
+.checkoutContainer {
+  box-shadow: 0 7px 14px rgba(34,25,36,.2);
+  border-radius: 8px;
+  width: 500px;
+  height: 100%;
+  padding: 20px;
+  padding-top: 30px;
+  margin-right: 50px;
+  position: sticky;
+  top: 0;
+}
+
+.checkoutInfoSpanContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkoutInfoSpan {
+  line-height: 40px;
+}
+
+.totalSpanContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;;
+}
+
+.checkoutTotal {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.CartBuyProduct {
+  color: white;
+  background: #7f187f;
+  border-radius: 50vw;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  height: 45px;
+  transition: all 0.6s ease;
+  margin: 10px;
+}
+
+.CartBuyProduct:hover {
+  opacity: 85%;
+  background-color: green;;
+  transform: translate(0px, -4px);
+  cursor: pointer;
+}
+
+.cartBuyProductButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.emptyCartPageTextContainer {
+  width: 100%;
+  text-align: center;
+  color: purple;
+}

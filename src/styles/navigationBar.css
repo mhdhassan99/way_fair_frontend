@@ -1,0 +1,48 @@
+
+
+.navBarContainer {
+}
+
+.navBar {
+  height: 80px;
+}
+.navbarLogo {
+  height: 70px;
+}
+
+.navBarBrowseButton {
+  margin-right: 10px;
+}
+
+.navBarFavoritesButton {
+  margin-left: 10px;
+}
+
+.navBarCartContainer {
+  margin-right: 20px;
+}
+.navBarCartImageContainer {
+  margin-right: 25px;
+}
+.navBarCartImage {
+  height: 25px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.navBarCartImage:hover {
+  transform: translate(0px, -3px);
+}
+
+.navBarCartText {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.navbarSignedin {
+  margin-right: 10px;
+}
+
+.navBarLoginButton {
+  margin-right: 10px;
+}
+

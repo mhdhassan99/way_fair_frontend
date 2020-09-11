@@ -1,0 +1,33 @@
+/* Remove all Default Styling Section start */
+body {
+  all: unset;
+  font-family: 'sofia', Arial, sans-serif;
+}
+button {
+  all: unset;
+}
+input {
+  all: unset;
+}
+form {
+  all: unset;
+}
+textarea {
+  all: unset;
+}
+h3 {
+  all: unset;
+}
+span {
+  all: unset;
+  line-height: 1.4;
+  color: #221924;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px;
+}
+p {
+  all: unset;
+}
+
+/* Remove all Default Styling Section end */
+
